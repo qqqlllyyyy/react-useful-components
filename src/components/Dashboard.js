@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Dashboard extends Component {
   render() {
@@ -6,7 +7,9 @@ class Dashboard extends Component {
       <div>
         <h3>Useful React Components:</h3>
         <ul>
-          <li>chartjs</li>
+          <li>
+            <Link to="/charts/chartjs">Chart.js</Link>
+          </li>
         </ul>
       </div>
     );
