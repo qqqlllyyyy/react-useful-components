@@ -10,6 +10,9 @@ class Dashboard extends Component {
           <li>
             <Link to="/charts/chartjs">Chart.js</Link>
           </li>
+          <li>
+            <Link to="/charts/plotly">Plotly.js</Link>
+          </li>
         </ul>
       </div>
     );
